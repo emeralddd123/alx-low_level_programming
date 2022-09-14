@@ -12,28 +12,28 @@ void print_alphabet_x10(void)
 
 {
 
-	char c;	int i = 0;
+char c;	int i = 0;
 
-	while (i < 10)
+while (i < 10)
 
-	{
+{
 
-		c = 'a';
+c = 'a';
 
-		while (c <= 'z')
+while (c <= 'z')
 
-		{
+{
 
-			_putchar(c);
+_putchar(c);
 
-			c++;
+c++;
 
-		}
+}
 
-		_putchar('\n');
+_putchar('\n');
 
-		i++;
+i++;
 
-	}
+}
 
 }
