@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -14,7 +14,7 @@ int main(void)
     printf("%d\n", r);
     r = is_palindrome("redder");
     printf("%d\n", r);
-    r = is_palindrome("holberton");
+    r = is_palindrome("main");
     printf("%d\n", r);
     r = is_palindrome("step on no pets");
     printf("%d\n", r);
