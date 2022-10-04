@@ -1,3 +1,7 @@
 #!/bin/bash
 gcc -c *.c
-ar -rcs libmy.a *.o
+<<<<<<< HEAD
+ar -rcs libmain.a *.o
+=======
+ar -rcs liball.a *.o
+>>>>>>> parent of 6c7458d (remove mistake files)
